@@ -22,8 +22,9 @@
             extend: {
               colors: {
                 'title-color': '#1C1C1C',                
-                'p-color': '#777',                
-
+                'p-color': '#777',               
+                'gradient-start': '#FF8938',
+                'gradient-end': '#F00',
               }
             }
           }
@@ -46,7 +47,7 @@
                     tea time at The <br> 
                     Tea House</h1>
                 <p class="py-6">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
-                <button class="btn btn-primary">Explore More</button>
+                <button class="btn bg-gradient-to-r from-gradient-start to-gradient-end text-white">Explore More</button>
               </div>
               <div>
                  <img src="images/banner.png" class="max-w-sm " />
@@ -116,7 +117,7 @@
         <!-- Great tea start here -->
         <section class="my-24 flex flex-col lg:flex-row gap-11">  
             <div class="grid grid-cols-1 lg:grid-cols-2 flex-1 gap-5">
-                <div class="rounded-xl h-36 bg-gradient-to-r from-[#F00] to-[#FF8938] opacity-10"></div>
+                <div class="rounded-xl h-36 bg-gradient-to-r from-gradient-start to-gradient-end opacity-10"></div>
                 <div class="row-span-2 bg-gradient-to-r from-[#E6A62319] to-[#E6A62319] rounded-lg flex justify-center items-center px-8 pt-12 pb-7"><img src="images/fresh-1.png" alt=""></div>
                 <div class="row-span-2 bg-gradient-to-r from-[#57763919] to-[#57763919] rounded-lg flex justify-center items-center px-8 pt-12 pb-7"><img src="images/fresh-2.png" alt=""></div>
                 <div class="rounded-xl h-36 bg-gradient-to-r from-[#D9D9D9] to-[#FFF]"></div>
@@ -144,7 +145,7 @@
                 <div class="space-y-5 ">
                     <h2 class="text-5xl font-extrabold text-[#F4F4F4]">Meet Our Super <br> Clients</h2>
                     <p class="text-[#F4F4F4]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
-                    <button class="btn btn-primary">Show All</button>
+                    <button class="btn bg-gradient-to-r from-gradient-start to-gradient-end text-white">Show All</button>
                 </div>
             </div>
             <!-- customer review  -->
@@ -181,10 +182,100 @@
                 </div>
             </div>
         </section>  
+        <!-- customer review ends -->
+        <section class="my-24">
+            <h2 class="text-5xl font-extrabold text-title-color text-center mb-5">News & Events</h2>
+            <p class="text-base text-p-color text-center max-w-3xl mx-auto mb-10">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.  </p>
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-5">
+                <!-- card 1 -->
+                <div class="card bg-base-100 shadow-xl border border-2">
+                    <figure class="px-5 pt-10">
+                      <img src="images/news-1.png" alt="news" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body ">
+                        <p class="font-medium text-base text-p-color">Feb 05, 2027</p>
+                      <h2 class="card-title text-2xl font-extrabold text-title-color">Collecting 8 points for discount</h2>
+                      <p class="font-medium text-base text-p-color" >There are many variations of passages of Lorem Ipsum available.</p>
+                      <h2 class="text-title-color font-extrabold">Learn More</h2>
+                    </div>
+                  </div>
+                <!-- card 2 -->
+                <div class="card bg-base-100 shadow-xl border border-2">
+                    <figure class="px-5 pt-10">
+                      <img src="images/news-2.png" alt="news" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body ">
+                        <p class="font-medium text-base text-p-color">Feb 05, 2027</p>
+                      <h2 class="card-title text-2xl font-extrabold text-title-color">Collecting 8 points for discount</h2>
+                      <p class="font-medium text-base text-p-color" >There are many variations of passages of Lorem Ipsum available.</p>
+                      <h2 class="text-title-color font-extrabold">Learn More</h2>
+                    </div>
+                  </div>
+                <!-- card 3 -->
+                <div class="card bg-base-100 shadow-xl border border-2">
+                    <figure class="px-5 pt-10">
+                      <img src="images/news-3.png" alt="news" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body ">
+                        <p class="font-medium text-base text-p-color">Feb 05, 2027</p>
+                      <h2 class="card-title text-2xl font-extrabold text-title-color">Collecting 8 points for discount</h2>
+                      <p class="font-medium text-base text-p-color" >There are many variations of passages of Lorem Ipsum available.</p>
+                      <h2 class="text-title-color font-extrabold">Learn More</h2>
+                    </div>
+                  </div>
+            </div>
+        </section>
     </main>
-    <footer>
-
-    </footer>
+    <footer class=" bg-gradient-to-r from-red-100 to-red-100 px-48 py-32">
+        <div class="flex flex-col lg:flex-row justify-between">
+            <div>
+                <img src="images/cup.png" alt="">
+            </div>
+            <div class="flex items-center gap-5">
+                <h2 class="text-xl font-medium text-[#494949]">Ready to get strated?</h2>
+                <button class="btn bg-gradient-to-r from-gradient-start to-gradient-end text-white">Get Start</button>
+            </div>
+        </div>
+        <div class="footer text-base-content pt-24">
+            <div>
+                <span class="footer-title">Services</span> 
+                <a class="link link-hover">Branding</a> 
+                <a class="link link-hover">Design</a> 
+                <a class="link link-hover">Marketing</a> 
+                <a class="link link-hover">Advertisement</a>
+              </div> 
+              <div>
+                <span class="footer-title">Company</span> 
+                <a class="link link-hover">About us</a> 
+                <a class="link link-hover">Contact</a> 
+                <a class="link link-hover">Jobs</a> 
+                <a class="link link-hover">Press kit</a>
+              </div> 
+              <div>
+                <span class="footer-title">Legal</span> 
+                <a class="link link-hover">Terms of use</a> 
+                <a class="link link-hover">Privacy policy</a> 
+                <a class="link link-hover">Cookie policy</a>
+              </div> 
+              <div>
+                <span class="footer-title">Newsletter</span> 
+                <div class="form-control w-80">
+                  <label class="label">
+                    <span class="label-text">Enter your email address</span>
+                  </label> 
+                  <div class="relative">
+                    <input type="text" placeholder="Email address" class="bg-transparent border-b-2 border-gray-500 outline-none py-4" />
+                    <button class="btn absolute top-0 right-0 rounded-full bg-gradient-to-r from-gradient-start to-gradient-end text-white border-none">
+                        <i class="fa-solid fa-angle-right"></i>
+                    </button> 
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="text-center pt-12">
+          <p class="font-medium text-base text-[#494949]">Copyright © 2023 - All right reserved by ACME Industries Ltd</p>
+        </div>
+      </footer>
     
 </body>
 </html>
